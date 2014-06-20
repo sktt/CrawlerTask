@@ -1,0 +1,10 @@
+BUILDING
+$ mvn clean compile assembly:single
+
+TESTING
+$ mvn test
+
+RUNNING
+$ java -jar crawler.jar <url>
+ie http://www.google.com
+
